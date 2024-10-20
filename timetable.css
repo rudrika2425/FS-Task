@@ -1,0 +1,32 @@
+h1{
+    align-items: center;
+    margin-left: 650px;
+    font-size: 50px;
+}
+.tt{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 500px;
+}
+table{
+text-align: center;
+border: 2px solid black;
+height: 500px;
+width: 1000px;
+}
+td{
+    background-color: rgb(244, 201, 208);
+    border: 2px solid black;
+    cursor: pointer; 
+}
+
+th{
+    border: 2px solid black; 
+    cursor: pointer;
+}
+td:hover {
+    background-color: rgb(243, 149, 164);
+    color: white; 
+}
+

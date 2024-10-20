@@ -1,0 +1,18 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(108, 161, 239);
+}
+.box{
+   
+    margin: 100px;
+}
+p{
+    color: rgb(108, 161, 239);
+    font-size: 40px;
+   
+}
+span{
+    color:black;
+   
+}

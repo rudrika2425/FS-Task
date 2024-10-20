@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <h1>Teacher Details</h1>
+    <div class="box">
+    <p>Subject: <span id="subject"></span></p>
+    <p>Teacher: <span id="teacher"></span></p>
+    <p>Contact: <span id="contact"></span></p>
+</div>
+    <script>
+        document.getElementById('subject').textContent = localStorage.getItem('subject');
+        document.getElementById('teacher').textContent = localStorage.getItem('teacher');
+        document.getElementById('contact').textContent = localStorage.getItem('contact');
+    </script>
+</body>
+</html>
